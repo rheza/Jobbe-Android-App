@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+	<ListView android:layout_width="fill_parent" 
+	  android:layout_height="fill_parent" 
+	  android:id="@+id/mainListView"
+	  android:background="#FFFFFF"
+	  android:cacheColorHint="#00000000"
+	  android:divider="#3f80c2"
+      android:dividerHeight="0.5dip"
+	  >
+	  
+	</ListView>
+	 <ProgressBar
+    android:id="@android:id/progress"
+    style="?android:attr/progressBarStyleSmall"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+/>
+</LinearLayout>

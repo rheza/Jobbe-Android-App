@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <RelativeLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_height="80dp" 
+  android:layout_width="fill_parent"
+  android:padding="6dip" android:weightSum="1">
+
+      <TextView
+          android:id="@+id/titletext"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:text="Title Text"
+          android:textColor="#3f80c2"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+      <TextView
+          android:id="@+id/companytext"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/titletext"
+          android:layout_below="@+id/titletext"
+          android:textColor="#989898"
+          android:text="Company Text"
+          android:textAppearance="?android:attr/textAppearanceSmall" />
+
+      <TextView
+          android:id="@+id/dashtext"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/companytext"
+          android:layout_alignBottom="@+id/companytext"
+          android:layout_marginLeft="4dp"
+          android:textColor="#989898"
+          android:layout_marginRight="4dp"
+          android:layout_toRightOf="@+id/companytext"
+          android:text="-"
+          android:textAppearance="?android:attr/textAppearanceSmall" />
+
+      <TextView
+          android:id="@+id/typetext"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/dashtext"
+          android:layout_alignBottom="@+id/dashtext"
+          android:layout_toRightOf="@+id/dashtext"
+          android:textColor="#02be4d"
+          android:text="Type Text"
+          android:textAppearance="?android:attr/textAppearanceSmall" />
+
+      <TextView
+          android:id="@+id/locationtext"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/companytext"
+          android:layout_below="@+id/companytext"
+          android:textColor="#989898"
+          android:text="Location Text"
+          android:textAppearance="?android:attr/textAppearanceSmall" />
+
+      <TextView
+          android:id="@+id/createdattext"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@+id/titletext"
+          android:layout_below="@+id/typetext"
+          android:textColor="#989898"
+          android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+  </RelativeLayout>
+
